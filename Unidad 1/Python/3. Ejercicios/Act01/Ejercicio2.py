@@ -1,0 +1,6 @@
+print ("Cálculo del índice de masa corporal (imc)")
+peso = float(input ("¿Cuánto pesa? "))
+altura = float(input ("¿Cuánto mide en metros? "))
+imc = peso / pow(altura, 2)
+print ("Su imc es {}".format( imc ))
+print ("Un imc muy alto indica obesidad. Los valores 'normales' de imc están entre 20 y 25, pero esos límites dependen de la edad, del sexo, de la constitución física, etc.")
