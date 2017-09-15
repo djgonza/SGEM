@@ -1,0 +1,6 @@
+print("Convertidor de segundos a minutos")
+segundos = int(input("Escriba una cantidad de segundos: "))
+horas = int(segundos // 3600)
+minutos = int((segundos - (horas * 3600))/60)
+segs = segundos -((horas*3600)+(minutos*60))
+print("{} segundos son {} horas {} minutos y {} segundos".format(segundos, horas, minutos, segs))

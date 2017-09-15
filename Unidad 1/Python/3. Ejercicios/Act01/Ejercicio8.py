@@ -1,0 +1,6 @@
+print("Convertidor a gruesas y docenas")
+num = int(input("Escriba una cantidad (entera): "))
+gruesas = int(num / pow(12,2))
+docenas = int((num - (gruesas * pow(12,2)))/12)
+unidades = num -((gruesas*pow(12,2))+(docenas*12))
+print("{} unidades son {} gruesas {} docenas y {} unidades".format(num, gruesas, docenas, unidades))

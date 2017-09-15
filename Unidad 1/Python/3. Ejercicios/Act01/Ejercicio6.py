@@ -1,6 +1,5 @@
 print("Convertidor de segundos a minutos")
-segundos = float(input("Escriba una cantidad de segundos: "))
-segs = (segundos % 3600 / 60) % 60;
-minutos = segundos % 3600 / 60;
-horas = segundos // 3600;
-print("{} segundos son {} horas {} minutos y {} segundos".format(segundos, horas, minutos, segs))
+segundos = int(input("Escriba una cantidad de segundos: "))
+minutos = int(segundos / 60)
+segs = segundos -(minutos * 60)
+print("{} segundos son {} minutos y {} segundos".format(segundos, minutos, segs))
