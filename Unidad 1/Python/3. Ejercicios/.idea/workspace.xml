@@ -10,28 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Ejecicio8.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Act02/Ejecicio8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ejercicio9.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Act02/Ejercicio9.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,12 +39,18 @@
         <option value="$PROJECT_DIR$/Act02/Ejercicio7.py" />
         <option value="$PROJECT_DIR$/Act02/Ejecicio8.py" />
         <option value="$PROJECT_DIR$/Act02/Ejercicio9.py" />
+        <option value="$PROJECT_DIR$/Act03/Ejercicio1.py" />
+        <option value="$PROJECT_DIR$/Act03/Ejercicio2.py" />
+        <option value="$PROJECT_DIR$/Act03/Ejercicio3.py" />
+        <option value="$PROJECT_DIR$/Act03/Ejercicio4.py" />
+        <option value="$PROJECT_DIR$/Act03/Ejercicio5.py" />
+        <option value="$PROJECT_DIR$/Act03/Ejercicio6.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="791" />
-    <option name="width" value="1136" />
+    <option name="x" value="874" />
+    <option name="width" value="1053" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -101,6 +86,11 @@
               <item name="3. Ejercicios" type="462c0819:PsiDirectoryNode" />
               <item name="Act02" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="3. Ejercicios" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3. Ejercicios" type="462c0819:PsiDirectoryNode" />
+              <item name="Act03" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -129,20 +119,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Ejecicio8">
-    <configuration name="Ejecicio8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Ejercicio6">
+    <configuration name="Ejercicio2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="3. Ejercicios" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act02/Ejecicio8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act03/Ejercicio2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Ejercicio3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="3. Ejercicios" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act03/Ejercicio3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,12 +161,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="3. Ejercicios" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act02/Ejercicio4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act03/Ejercicio4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,12 +178,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="3. Ejercicios" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act02/Ejercicio5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act03/Ejercicio5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,47 +195,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="3. Ejercicios" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act02/Ejercicio6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Ejercicio7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Act02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="3. Ejercicios" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act02/Ejercicio7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Act03/Ejercicio6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Ejercicio4" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Ejercicio5" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Ejercicio6" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Ejercicio7" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Ejecicio8" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Ejercicio2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Ejercicio3" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Ejercicio4" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Ejercicio5" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Ejercicio6" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Ejecicio8" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Ejercicio7" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Ejercicio6" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Ejercicio5" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Ejercicio4" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Ejercicio6" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Ejercicio5" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Ejercicio4" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Ejercicio3" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Ejercicio2" />
       </list>
     </recent_temporary>
   </component>
@@ -246,9 +236,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="791" y="0" width="1136" height="1047" extended-state="0" />
+    <frame x="874" y="0" width="1053" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15043394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5146138" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -279,8 +269,22 @@
     <entry file="file://$PROJECT_DIR$/Act02/Ejecicio8.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act02/Ejercicio9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act02/Ejecicio8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -404,25 +408,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Act02/Ejercicio7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Act02/Ejecicio8.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act02/Ejercicio8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act02/Ejercicio10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Act02/Ejercicio9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act02/Ejercicio7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act03/Ejercicio2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act03/Ejercicio3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act03/Ejercicio1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act03/Ejercicio5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act03/Ejercicio6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Act03/Ejercicio4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
