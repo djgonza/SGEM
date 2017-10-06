@@ -3,5 +3,7 @@ list = ['Beñat', 'XaBi', 'Xabi', 'MARIA', 'Alexander', 'Carlos', 'JUAN', 'Imano
 cont = 0
 while cont < 19:
     x = list[cont]
-    
+    list[cont] = x.upper()
+    cont = cont+1
+
 print (list)
