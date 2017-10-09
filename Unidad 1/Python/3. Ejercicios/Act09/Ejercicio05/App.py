@@ -10,13 +10,7 @@ while True:
         print("Divisor es 0")
     else:
         calculadora = Calculadora(num1,num2)
-        if signo == "+":
-            print("Resultado suma: {}".format(calculadora.sumar()))
-        elif signo == "-":
-            print("Resultado resta: {}".format(calculadora.restar()))
-        elif signo == "*":
-            print("Resultado multiplicación: {}".format(calculadora.multiplicar()))
-        else:
-            print("Resultado división: {}".format(calculadora.dividir()))
+        options = {"+":calculadora.sumar,"-":calculadora.restar,"*":calculadora.multiplicar,"/":calculadora.dividir}
+        print(options[signo]())
 
 print("Total operaciones: {}".format(Calculadora.contCalculos))

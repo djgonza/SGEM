@@ -8,19 +8,19 @@ class Calculadora:
 
     def sumar(self):
         Calculadora.contCalculos += 1
-        return self.num1 + self.num2
+        return ("Resultado suma: {}".format(self.num1 + self.num2))
 
     def restar(self):
         Calculadora.contCalculos += 1
-        return self.num1 - self.num2
+        return ("Resultado resta: {}".format(self.num1 - self.num2))
 
     def multiplicar(self):
         Calculadora.contCalculos += 1
-        return self.num1 * self.num2
+        return ("Resultado multiplicación: {}".format(self.num1 * self.num2))
 
     def dividir(self):
         Calculadora.contCalculos += 1
-        return self.num1 / self.num2
+        return ("Resultado división: {}".format(self.num1 / self.num2))
 
     @staticmethod
     def leer_numero(prompt):
