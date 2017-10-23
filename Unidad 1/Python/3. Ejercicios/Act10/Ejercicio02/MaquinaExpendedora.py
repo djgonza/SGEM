@@ -6,45 +6,58 @@ class MaquinaExpendedora(object):
         self.__precio = precio
         self.__importe = 0
 
-    def _getImporte(self):
+    def _getimporte(self):
         return getattr(self,"_MaquinaExpendedora__importe")
 
-    def _getPrecio(self):
+    def _getprecio(self):
         return getattr(self, "_MaquinaExpendedora__precio")
 
-    def _setImporte(self, importe):
+    def _setimporte(self, importe):
         setattr(self,"_MaquinaExpendedora__importe",importe)
 
-    def _setPrecio(self,precio):
+    def _setprecio(self,precio):
         setattr(self, "_MaquinaExpendedora__precio", precio)
 
-    precio = property(fget=_getPrecio())
-    importe = property(fget=_getImporte())
+    precio = property(fget=_getprecio, fset=_setprecio)
+    importe = property(fget=_getimporte, fset=_setimporte)
 
     def getTotal(self):
-        getattr(MaquinaExpendedora, "_total")
+        return getattr(MaquinaExpendedora, "_total")
 
     def setTotal(self, valor):
         setattr(MaquinaExpendedora, "_total",valor)
 
     def insertar_dinero(self,cantidad):
-        if cantidad > 0:
-            print("")
-        else:
-            print("Introduzca una cantidad positiva")
+        assert (cantidad > 0), "Introduzca una cantidad positiva"
+        self.importe += cantidad
+        dif = self.precio-self.importe
+        assert self.precio <= self.importe, ("Introduzca más dinero, le faltan  {}  euros".format(dif))
 
     def imprimir_ticket(self):
-        print("Imprimiendo ticket..... Ha introducido {} €".format(self.importe))
-        self.devolver_cambios()
+        if self.importe >= self.precio:
+            print("Imprimiendo ticket..... Ha introducido {} €".format(self.importe))
+            total = self.getTotal()
+            total += self.precio
+            MaquinaExpendedora.setTotal(self, total)
+            self.devolver_cambios()
+            return True
+        else:
+            self.cantidad_pendiente()
+            return False
+
 
     def devolver_cambios(self):
         print("Que aproveche :)). No se olvide de su cambio : {}".format(self.importe-self.precio))
+        print()
 
     def cantidad_pendiente(self):
         print("Introduzca más dinero, le faltan  {}  euros".format(self.precio-self.importe))
 
     def vaciar_maquina(self):
+        print("")
+        print("***********************************************************")
         print("Total recaudado por la máquina {}".format(self.getTotal()))
         print("Vaciando máquina...")
         self.setTotal(0)
         print("Máquina vaciada {}".format(self.getTotal()))
+
