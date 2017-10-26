@@ -19,7 +19,7 @@ for i in range(1, cafes+1):
             precio = float(input("Cafe {}. Teclee su precio: ".format(i)))
             assert (precio > 0), "Introduzca una cantidad positiva"
             print("Supongo que quiere 1 CAFE y cuesta {}€".format(float(precio)))
-            maquinita.precio=precio
+            maquinita.precio = precio
             break
         except ValueError:
             print("Debe introducir un valor numérico")

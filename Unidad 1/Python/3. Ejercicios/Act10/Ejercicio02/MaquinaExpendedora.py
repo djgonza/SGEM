@@ -21,11 +21,13 @@ class MaquinaExpendedora(object):
     precio = property(fget=_getprecio, fset=_setprecio)
     importe = property(fget=_getimporte, fset=_setimporte)
 
-    def getTotal(self):
+    @staticmethod
+    def gettotal():
         return getattr(MaquinaExpendedora, "_total")
 
-    def setTotal(self, valor):
-        setattr(MaquinaExpendedora, "_total",valor)
+    @staticmethod
+    def settotal(valor):
+        setattr(MaquinaExpendedora, "_total", valor)
 
     def insertar_dinero(self,cantidad):
         assert (cantidad > 0), "Introduzca una cantidad positiva"
@@ -36,9 +38,9 @@ class MaquinaExpendedora(object):
     def imprimir_ticket(self):
         if self.importe >= self.precio:
             print("Imprimiendo ticket..... Ha introducido {} €".format(self.importe))
-            total = self.getTotal()
+            total = MaquinaExpendedora.getTotal()
             total += self.precio
-            MaquinaExpendedora.setTotal(self, total)
+            MaquinaExpendedora.setTotal(total)
             self.devolver_cambios()
             return True
         else:
@@ -56,8 +58,8 @@ class MaquinaExpendedora(object):
     def vaciar_maquina(self):
         print("")
         print("***********************************************************")
-        print("Total recaudado por la máquina {}".format(self.getTotal()))
+        print("Total recaudado por la máquina {}".format(MaquinaExpendedora.getTotal()))
         print("Vaciando máquina...")
-        self.setTotal(0)
-        print("Máquina vaciada {}".format(self.getTotal()))
+        MaquinaExpendedora.setTotal(0)
+        print("Máquina vaciada {}".format(MaquinaExpendedora.getTotal()))
 
