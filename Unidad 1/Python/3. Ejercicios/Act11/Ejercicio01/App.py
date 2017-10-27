@@ -6,7 +6,5 @@ contactitos = Contactos(lista)
 
 diccionario = contactitos.contactos_unificados()
 
-for i in range(len(diccionario)):
-    nombre = diccionario[0]
-    mails = diccionario[1]
-    print("{} {}".format(nombre, mails))
+for contacto in diccionario:
+    print("{} {}".format(contacto, diccionario.get(contacto)))
