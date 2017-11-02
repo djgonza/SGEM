@@ -25,4 +25,5 @@ class Agenda(object):
 
     @staticmethod
     def tostring(self):
-        print(self)
+        for contacto in self.agenda:
+            print("{} = {}".format(contacto, self.agenda[contacto]))
