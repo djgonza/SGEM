@@ -15,21 +15,14 @@ class MaquinaExpendedora(object):
     def _getimporte(self):
         return getattr(self,"_MaquinaExpendedora__importe")
 
-    def _getprecio(self):
-        return getattr(self,"_MaquinaExpendedora__precio")
-
     def _setimporte(self, importe):
         setattr(self,"_MaquinaExpendedora__importe",importe)
-
-    def _setprecio(self, precio):
-        setattr(self,"_MaquinaExpendedora__precio",precio)
 
     def _getproductos(self):
         return getattr(self, "_MaquinaExpendedora__productos")
 
     productos = property(fget=_getproductos)
     importe = property(fget=_getimporte, fset=_setimporte)
-    precio = property(fget=_getprecio, fset=_setprecio)
 
     @staticmethod
     def gettotal():

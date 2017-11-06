@@ -8,7 +8,7 @@ nombre = input("Introduzca el nombre del producto que quiera comprar").title()
 while True:
     if maquinita.existeproducto(nombre):
         break
-        nombre = input("Introduzca el nombre del producto que quiera comprar: ").title()
+    nombre = input("Introduzca el nombre del producto que quiera comprar: ").title()
 
 while True:
     try:
