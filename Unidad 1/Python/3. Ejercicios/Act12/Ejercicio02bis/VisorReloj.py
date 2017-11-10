@@ -1,15 +1,10 @@
-from Act12.Ejercicio01.VisorNumeros import VisorNumeros
-
 class VisorReloj:
+    from Act12.Ejercicio01.VisorNumeros import VisorNumeros
     _visor_string = ""
 
     def __init__(self, hora=None, minuto=None):
-        if hora == None and minuto == None:
-            self.__hora = VisorNumeros(24)
-            self.__minuto = VisorNumeros(60)
-        else:
-            self.__hora = hora
-            self.__minuto = minuto
+        self.__hora = hora
+        self.__minuto = minuto
 
     def _gethora(self):
         return getattr(self, "_VisorReloj__hora")
